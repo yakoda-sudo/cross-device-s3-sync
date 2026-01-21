@@ -7,13 +7,13 @@ import logging
 # SOURCE
 SRC_ACCESS_KEY   = 'YOUR_SOURCE_ACCESS_KEY'
 SRC_SECRET_KEY   = 'YOUR_SOURCE_SECRET_KEY'
-SRC_ENDPOINT     = 'https://s3.source-region.amazonaws.com'
+SRC_ENDPOINT     = 'http://your_local_s3_endpoint_data_VIP'
 SRC_BUCKET       = 'source-bucket-name'
 
 # TARGET
 DST_ACCESS_KEY   = 'YOUR_TARGET_ACCESS_KEY'
 DST_SECRET_KEY   = 'YOUR_TARGET_SECRET_KEY'
-DST_ENDPOINT     = 'https://s3.target-region.amazonaws.com'
+DST_ENDPOINT     = 'http://S3_endpoint_IP'
 DST_BUCKET       = 'target-bucket-name'
 
 # SETTINGS
